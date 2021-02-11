@@ -10,6 +10,7 @@ const Shop = () => {
     const handleAddCourse = (course) => {
         const newCart = [...cart, course]
         setCart(newCart)
+        console.log('title')
     }
     return (
         <div className="shop-container">

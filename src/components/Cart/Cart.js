@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-   //console.log(props.cart)
+   console.log(props.cart)
     const cart = props.cart
     const totalPrice = cart.reduce( (total, course) => total + course.price, 0)
     const tax = (totalPrice/10)

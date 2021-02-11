@@ -18,7 +18,7 @@ var educationCourses = [{
     "id":3,
     "title":"Angular - The Complete Guide (2020 Edition)",
     "img":"https://img-a.udemycdn.com/course/240x135/756150_c033_2.jpg",
-    "author":"Dafydd Alvarado",    
+    "author":"Dafydd Alvarad",    
     "email":"zoe.sims@example.com",
     "price": 12
 },

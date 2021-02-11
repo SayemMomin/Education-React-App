@@ -5,8 +5,11 @@ import './Course.css'
 
 
 const Course = (props) => {
-   console.log(props)
+   //console.log(props)
     const {img, title, author, price} = props.course
+    //const handleAddCourse = props.course
+    //const course = props.course
+
     return (
       <div className="col-lg-4 col-md-6 mb-3">
         <div className="card ">
@@ -20,6 +23,7 @@ const Course = (props) => {
           </div>
           <div className="card-footer">
           <button className="bg-primary" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={faCaretRight} />Enroll Now</button>
+          {/* <button className="bg-primary" onClick={() => handleAddCourse(course)}><FontAwesomeIcon icon={faCaretRight} />Enroll Now</button> */}
           </div>
         </div>
       </div>
